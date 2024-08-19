@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Servidor en nodejs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "json-server --watch db.json",
     "dev": "node --watch src/app.js"
